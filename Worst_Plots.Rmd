@@ -44,6 +44,8 @@ data.frame(Species, Population1)
 ggplot(data = Rhino1, aes(x="Species", y = "Population1", fill = Population1 )) + geom_bar(width = 1, stat = "identity") + coord_polar("y",start=0, direction = -1) + theme_void()
 ```
 
+# Data better represented by Bar Chart
+
 # BAR CHART
 
 ```{r Rhino2, echo=FALSE}
