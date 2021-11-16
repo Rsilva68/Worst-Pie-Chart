@@ -39,7 +39,7 @@ library(hrbrthemes)
 library(viridis)
 library(patchwork)
 
-# create 3 data frame:
+# create data frame:
 data1 <- data.frame( name=letters[1:5], value=c(17,18,20,22,24) )
 
 
@@ -52,7 +52,7 @@ ggplot(data1, aes(x="name", y=value, fill=name)) +
      scale_fill_viridis(discrete = TRUE,  direction=-1) + theme_void()
 ```  
 
-
+#  The data is much better represented by a bar chart
 
 ``` {r Bar, echo=FALSE}
 ggplot (data1) +
